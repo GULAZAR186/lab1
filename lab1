@@ -1,0 +1,9 @@
+@@ -0,0 +1,9 @@
+ import math
+ c=(pow(0.027 , -1/3)-pow(1/6 ,(-2.2)))*math.log(3)
+ k=3*math.sin(1)+math.cos(1)
+ if abs(c+k)>2:
+     L=math.tan(c-2*k)
+ if abs(c+2*k)<=2:
+     L=math.log(abs(c-2*k))
+ print(L)
